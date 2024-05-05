@@ -19,6 +19,14 @@ app.post("/submit", (req, res) => {
   //some code to return on post request
 });
 
+app.patch("/update", (req, res) => {
+    //some code to return on patch request
+  });
+
+  app.delete("/delete", (req, res) => {
+    //some code to return on delete request
+  });
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
